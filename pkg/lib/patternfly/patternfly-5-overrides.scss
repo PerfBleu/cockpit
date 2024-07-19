@@ -62,7 +62,7 @@ select.pf-v5-c-form-control {
   --pf-v5-c-form-control--PaddingLeft: 8px;
 
   // Firefox's select text has additional padding (4px)
-  @-moz-document url-prefix() {
+  @-moz-document url-prefix() {  // stylelint-disable property-no-vendor-prefix
     --pf-v5-c-form-control--PaddingRight: 37px;
     --pf-v5-c-form-control--PaddingLeft: 4px;
   }
